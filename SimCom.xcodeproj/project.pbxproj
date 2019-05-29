@@ -13,6 +13,12 @@
 		50B8E38D229EAA7C004B99F9 /* SimCom.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50B8E38B229EAA7C004B99F9 /* SimCom.xcdatamodeld */; };
 		50B8E38F229EAA7C004B99F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50B8E38E229EAA7C004B99F9 /* Assets.xcassets */; };
 		50B8E392229EAA7C004B99F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50B8E390229EAA7C004B99F9 /* LaunchScreen.storyboard */; };
+		50B8E3A0229EAAC0004B99F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B8E39F229EAAC0004B99F9 /* AppDelegate.swift */; };
+		50B8E3A2229EAAC0004B99F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B8E3A1229EAAC0004B99F9 /* ViewController.swift */; };
+		50B8E3A5229EAAC0004B99F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50B8E3A3229EAAC0004B99F9 /* Main.storyboard */; };
+		50B8E3A8229EAAC0004B99F9 /* SimcomAdmin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50B8E3A6229EAAC0004B99F9 /* SimcomAdmin.xcdatamodeld */; };
+		50B8E3AD229EAAC0004B99F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50B8E3AB229EAAC0004B99F9 /* LaunchScreen.storyboard */; };
+		50B8E3B3229EAB70004B99F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50B8E38E229EAA7C004B99F9 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,10 +30,24 @@
 		50B8E38E229EAA7C004B99F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50B8E391229EAA7C004B99F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50B8E393229EAA7C004B99F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50B8E39D229EAABF004B99F9 /* SimcomAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimcomAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50B8E39F229EAAC0004B99F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50B8E3A1229EAAC0004B99F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50B8E3A4229EAAC0004B99F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50B8E3A7229EAAC0004B99F9 /* SimcomAdmin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimcomAdmin.xcdatamodel; sourceTree = "<group>"; };
+		50B8E3AC229EAAC0004B99F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50B8E3AE229EAAC0004B99F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		50B8E37E229EAA7C004B99F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50B8E39A229EAABF004B99F9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,7 +60,9 @@
 		50B8E378229EAA7C004B99F9 = {
 			isa = PBXGroup;
 			children = (
+				50B8E3B2229EAB1A004B99F9 /* Shared */,
 				50B8E383229EAA7C004B99F9 /* SimCom */,
+				50B8E39E229EAAC0004B99F9 /* SimcomAdmin */,
 				50B8E382229EAA7C004B99F9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				50B8E381229EAA7C004B99F9 /* SimCom.app */,
+				50B8E39D229EAABF004B99F9 /* SimcomAdmin.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,12 +82,32 @@
 				50B8E384229EAA7C004B99F9 /* AppDelegate.swift */,
 				50B8E386229EAA7C004B99F9 /* ViewController.swift */,
 				50B8E388229EAA7C004B99F9 /* Main.storyboard */,
-				50B8E38E229EAA7C004B99F9 /* Assets.xcassets */,
 				50B8E390229EAA7C004B99F9 /* LaunchScreen.storyboard */,
 				50B8E393229EAA7C004B99F9 /* Info.plist */,
 				50B8E38B229EAA7C004B99F9 /* SimCom.xcdatamodeld */,
 			);
 			path = SimCom;
+			sourceTree = "<group>";
+		};
+		50B8E39E229EAAC0004B99F9 /* SimcomAdmin */ = {
+			isa = PBXGroup;
+			children = (
+				50B8E39F229EAAC0004B99F9 /* AppDelegate.swift */,
+				50B8E3A1229EAAC0004B99F9 /* ViewController.swift */,
+				50B8E3A3229EAAC0004B99F9 /* Main.storyboard */,
+				50B8E3AB229EAAC0004B99F9 /* LaunchScreen.storyboard */,
+				50B8E3AE229EAAC0004B99F9 /* Info.plist */,
+				50B8E3A6229EAAC0004B99F9 /* SimcomAdmin.xcdatamodeld */,
+			);
+			path = SimcomAdmin;
+			sourceTree = "<group>";
+		};
+		50B8E3B2229EAB1A004B99F9 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				50B8E38E229EAA7C004B99F9 /* Assets.xcassets */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +130,23 @@
 			productReference = 50B8E381229EAA7C004B99F9 /* SimCom.app */;
 			productType = "com.apple.product-type.application";
 		};
+		50B8E39C229EAABF004B99F9 /* SimcomAdmin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50B8E3AF229EAAC0004B99F9 /* Build configuration list for PBXNativeTarget "SimcomAdmin" */;
+			buildPhases = (
+				50B8E399229EAABF004B99F9 /* Sources */,
+				50B8E39A229EAABF004B99F9 /* Frameworks */,
+				50B8E39B229EAABF004B99F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimcomAdmin;
+			productName = SimcomAdmin;
+			productReference = 50B8E39D229EAABF004B99F9 /* SimcomAdmin.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -98,6 +158,10 @@
 				ORGANIZATIONNAME = simcoeit;
 				TargetAttributes = {
 					50B8E380229EAA7C004B99F9 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					50B8E39C229EAABF004B99F9 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
@@ -117,6 +181,7 @@
 			projectRoot = "";
 			targets = (
 				50B8E380229EAA7C004B99F9 /* SimCom */,
+				50B8E39C229EAABF004B99F9 /* SimcomAdmin */,
 			);
 		};
 /* End PBXProject section */
@@ -132,6 +197,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		50B8E39B229EAABF004B99F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B8E3AD229EAAC0004B99F9 /* LaunchScreen.storyboard in Resources */,
+				50B8E3B3229EAB70004B99F9 /* Assets.xcassets in Resources */,
+				50B8E3A5229EAAC0004B99F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -142,6 +217,16 @@
 				50B8E38D229EAA7C004B99F9 /* SimCom.xcdatamodeld in Sources */,
 				50B8E387229EAA7C004B99F9 /* ViewController.swift in Sources */,
 				50B8E385229EAA7C004B99F9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50B8E399229EAABF004B99F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B8E3A8229EAAC0004B99F9 /* SimcomAdmin.xcdatamodeld in Sources */,
+				50B8E3A2229EAAC0004B99F9 /* ViewController.swift in Sources */,
+				50B8E3A0229EAAC0004B99F9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,6 +245,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				50B8E391229EAA7C004B99F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		50B8E3A3229EAAC0004B99F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50B8E3A4229EAAC0004B99F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50B8E3AB229EAAC0004B99F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50B8E3AC229EAAC0004B99F9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -302,6 +403,34 @@
 			};
 			name = Release;
 		};
+		50B8E3B0229EAAC0004B99F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimcomAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = techplus.SimcomAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50B8E3B1229EAAC0004B99F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimcomAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = techplus.SimcomAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -323,6 +452,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		50B8E3AF229EAAC0004B99F9 /* Build configuration list for PBXNativeTarget "SimcomAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50B8E3B0229EAAC0004B99F9 /* Debug */,
+				50B8E3B1229EAAC0004B99F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
@@ -333,6 +471,16 @@
 			);
 			currentVersion = 50B8E38C229EAA7C004B99F9 /* SimCom.xcdatamodel */;
 			path = SimCom.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		50B8E3A6229EAAC0004B99F9 /* SimcomAdmin.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				50B8E3A7229EAAC0004B99F9 /* SimcomAdmin.xcdatamodel */,
+			);
+			currentVersion = 50B8E3A7229EAAC0004B99F9 /* SimcomAdmin.xcdatamodel */;
+			path = SimcomAdmin.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
