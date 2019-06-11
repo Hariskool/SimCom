@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50766C8522AEE888004C5E38 /* roundbutton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50766C8422AEE888004C5E38 /* roundbutton.swift */; };
+		50766C8722AEEBB7004C5E38 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50766C8622AEEBB7004C5E38 /* Login.storyboard */; };
+		50766C8922AEEBCC004C5E38 /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50766C8822AEEBCC004C5E38 /* Register.storyboard */; };
 		50B8E385229EAA7C004B99F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B8E384229EAA7C004B99F9 /* AppDelegate.swift */; };
 		50B8E387229EAA7C004B99F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B8E386229EAA7C004B99F9 /* ViewController.swift */; };
 		50B8E38A229EAA7C004B99F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50B8E388229EAA7C004B99F9 /* Main.storyboard */; };
@@ -19,9 +22,13 @@
 		50B8E3A8229EAAC0004B99F9 /* SimcomAdmin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50B8E3A6229EAAC0004B99F9 /* SimcomAdmin.xcdatamodeld */; };
 		50B8E3AD229EAAC0004B99F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50B8E3AB229EAAC0004B99F9 /* LaunchScreen.storyboard */; };
 		50B8E3B3229EAB70004B99F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50B8E38E229EAA7C004B99F9 /* Assets.xcassets */; };
+		50B8E3B5229EAF8D004B99F9 /* WelcomeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50B8E3B4229EAF8D004B99F9 /* WelcomeStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		50766C8422AEE888004C5E38 /* roundbutton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roundbutton.swift; sourceTree = "<group>"; };
+		50766C8622AEEBB7004C5E38 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		50766C8822AEEBCC004C5E38 /* Register.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Register.storyboard; sourceTree = "<group>"; };
 		50B8E381229EAA7C004B99F9 /* SimCom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimCom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50B8E384229EAA7C004B99F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50B8E386229EAA7C004B99F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +44,7 @@
 		50B8E3A7229EAAC0004B99F9 /* SimcomAdmin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimcomAdmin.xcdatamodel; sourceTree = "<group>"; };
 		50B8E3AC229EAAC0004B99F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50B8E3AE229EAAC0004B99F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50B8E3B4229EAF8D004B99F9 /* WelcomeStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WelcomeStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		507A29B722AFAAFB0078B914 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		507A29B822AFAB020078B914 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		507A29B922AFAB0E0078B914 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		50B8E378229EAA7C004B99F9 = {
 			isa = PBXGroup;
 			children = (
@@ -79,12 +108,19 @@
 		50B8E383229EAA7C004B99F9 /* SimCom */ = {
 			isa = PBXGroup;
 			children = (
+				507A29B922AFAB0E0078B914 /* Controllers */,
+				507A29B822AFAB020078B914 /* Views */,
+				507A29B722AFAAFB0078B914 /* Models */,
 				50B8E384229EAA7C004B99F9 /* AppDelegate.swift */,
 				50B8E386229EAA7C004B99F9 /* ViewController.swift */,
 				50B8E388229EAA7C004B99F9 /* Main.storyboard */,
 				50B8E390229EAA7C004B99F9 /* LaunchScreen.storyboard */,
 				50B8E393229EAA7C004B99F9 /* Info.plist */,
 				50B8E38B229EAA7C004B99F9 /* SimCom.xcdatamodeld */,
+				50B8E3B4229EAF8D004B99F9 /* WelcomeStoryboard.storyboard */,
+				50766C8422AEE888004C5E38 /* roundbutton.swift */,
+				50766C8622AEEBB7004C5E38 /* Login.storyboard */,
+				50766C8822AEEBCC004C5E38 /* Register.storyboard */,
 			);
 			path = SimCom;
 			sourceTree = "<group>";
@@ -191,9 +227,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50B8E3B5229EAF8D004B99F9 /* WelcomeStoryboard.storyboard in Resources */,
 				50B8E392229EAA7C004B99F9 /* LaunchScreen.storyboard in Resources */,
 				50B8E38F229EAA7C004B99F9 /* Assets.xcassets in Resources */,
+				50766C8722AEEBB7004C5E38 /* Login.storyboard in Resources */,
 				50B8E38A229EAA7C004B99F9 /* Main.storyboard in Resources */,
+				50766C8922AEEBCC004C5E38 /* Register.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50766C8522AEE888004C5E38 /* roundbutton.swift in Sources */,
 				50B8E38D229EAA7C004B99F9 /* SimCom.xcdatamodeld in Sources */,
 				50B8E387229EAA7C004B99F9 /* ViewController.swift in Sources */,
 				50B8E385229EAA7C004B99F9 /* AppDelegate.swift in Sources */,
